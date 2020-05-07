@@ -16,8 +16,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
-title_separator          : "Data Junkie"
+title                    : "Data Junkie"
+title_separator          : ""
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Apoorv Saxena"
 description              : "A series of (mis?)adventures from playing around with data. Other occasional flim flam."
@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Apoorv Saxena"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/slider_ss.png"
   bio              : "A series of (mis?)adventures from playing around with data. Other occasional flim flam."
   location         : 
   email            :
