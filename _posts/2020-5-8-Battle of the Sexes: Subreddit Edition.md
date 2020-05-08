@@ -1,6 +1,3 @@
-Battle of the Sexes: Subreddit Edition
-======================================
-
 I was browsing through Reddit the other day and I started to wonder if
 there was a significant way in the contents of the r/AskMen and
 r/AskWomen subreddits. Like the names suggest, the purpose of the
