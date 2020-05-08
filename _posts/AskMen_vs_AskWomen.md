@@ -58,7 +58,7 @@ men_word_pairs %>%
   theme_void()
 ```
 
-![](AskMen_vs_AskWomen_files/figure-markdown_github/unnamed-chunk-2-1.png)
+![](/post_resources/AskMen_vs_AskWomen_files/figure-markdown_github/unnamed-chunk-2-1.png)
 
 ### Women
 
@@ -86,7 +86,7 @@ women_word_pairs %>%
   theme_void()
 ```
 
-![](AskMen_vs_AskWomen_files/figure-markdown_github/unnamed-chunk-3-1.png)
+![](/post_resources/AskMen_vs_AskWomen_files/figure-markdown_github/unnamed-chunk-3-1.png)
 
 Comment Analysis
 ----------------
@@ -143,7 +143,7 @@ ggplot(com_total, aes(AskMen, AskWomen))+
 
     ## Warning: Removed 38238 rows containing missing values (geom_text).
 
-![](AskMen_vs_AskWomen_files/figure-markdown_github/unnamed-chunk-6-1.png)
+![](/post_resources/AskMen_vs_AskWomen_files/figure-markdown_github/unnamed-chunk-6-1.png)
 This doesn’t really give much of a feel. So I decided to use the
 frequencies of the words instead.
 
@@ -163,7 +163,7 @@ ggplot(com_freq, aes(AskMen, AskWomen)) +
 
     ## Warning: Removed 38238 rows containing missing values (geom_text).
 
-![](AskMen_vs_AskWomen_files/figure-markdown_github/unnamed-chunk-7-1.png)
+![](/post_resources/AskMen_vs_AskWomen_files/figure-markdown_github/unnamed-chunk-7-1.png)
 
 While most words seem to be similarly used, some words are interestingly
 skewed towards conforming with traditional gender roles such as sports
@@ -212,7 +212,7 @@ women_sentiment <- ggplot(xx, aes(index, sentiment)) +
 ggarrange(men_sentiment, women_sentiment, ncol = 2, labels = c("r/AskMen", "r/AskWomen"))
 ```
 
-![](AskMen_vs_AskWomen_files/figure-markdown_github/unnamed-chunk-8-1.png)
+![](/post_resources/AskMen_vs_AskWomen_files/figure-markdown_github/unnamed-chunk-8-1.png)
 Looks like r/AskMen has more wholesome content as compared to
 r/AskWomen. Let’s take a look at the most common positive words once.
 
@@ -270,7 +270,7 @@ wim<- bing_word_counts_x %>%
 ggarrange(men, wim, nrow = 2, labels = c("r/AskMen", "r/AskWomen"))
 ```
 
-![](AskMen_vs_AskWomen_files/figure-markdown_github/unnamed-chunk-9-1.png)
+![](/post_resources/AskMen_vs_AskWomen_files/figure-markdown_github/unnamed-chunk-9-1.png)
 
 Like and well probably have a lot of noise from being used in other
 ways.
