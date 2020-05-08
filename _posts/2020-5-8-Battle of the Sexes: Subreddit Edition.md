@@ -1,6 +1,6 @@
 I was browsing through Reddit the other day and I started to wonder if
-there was a significant way in the contents of the r/AskMen and
-r/AskWomen subreddits. Like the names suggest, the purpose of the
+there was a significant way in which the contents of the r/AskMen and
+r/AskWomen subreddits differed. Like the names suggest, the purpose of the
 subreddits are to ask people of a specific gender questions about their
 views and experiences with regards to some topics. I scraped the top
 1000 posts and upto 15 layers of comment for those posts using PRAW
