@@ -64,7 +64,7 @@ shiny package in R to build an app. Since the app is interactive, I
 can’t embed it here. Here’s a screenshot of the app and you can check it
 out over here
 
-\[\]{post\_resources/HBR/img.jpg}
+\[\]{/post\_resources/HBR/img.jpg}
 
 Code:
 
