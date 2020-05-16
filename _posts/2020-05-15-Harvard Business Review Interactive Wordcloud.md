@@ -62,7 +62,7 @@ wc2ClickedWord = function(cloudOutputId, inputId) {
 Since we want an element of interactivity, we should naturally use the
 shiny package in R to build an app. Since the app is interactive, I
 can’t embed it here. Here’s a screenshot of the app and you can check it
-out over here
+out over [here](https://safierinx.shinyapps.io/HBR-WC/)
 
 ![](/post_resources/img.jpg)
 
