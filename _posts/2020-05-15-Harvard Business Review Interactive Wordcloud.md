@@ -1,5 +1,5 @@
-The \[Harvard Business
-Review\]{<a href="https://hbr.org/" class="uri">https://hbr.org/</a>} is
+The [Harvard Business
+Review](https://hbr.org/) is
 one of the most presitigious general management magazines in the world
 with a circulation of over 250,000 over a span of 14 languages. It is a
 regular source of excellent insights in a litany of domains like
@@ -12,7 +12,7 @@ their articles.
 good old BeautifulSoup library in Python and utilized the NLTK module
 for text processing to generate word tokens and remove stopwords. You
 can refer to the scraper in detail
-\[here\]{<a href="https://github.com/safierinx-a/HBR-Interactive-Wordcloud" class="uri">https://github.com/safierinx-a/HBR-Interactive-Wordcloud</a>}
+[here](https://github.com/safierinx-a/HBR-Interactive-Wordcloud)
 
 ``` r
 full <- read.csv("HBR data.csv")
