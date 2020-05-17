@@ -190,7 +190,7 @@ plt.savefig("Champ_freq.jpg")
 ```
 
 
-![png](output_17_0.png)
+![](/post_resources/LOL/output_17_0.png)
 
 
 Let's do a quick comparison of these percentages with pick/ban rates across different tiers. I got the respective pick ban rates accross all tiers from op.gg as it was the most hassle free method I found.  I will also scale the Mention ratio appropriately so that I can have them all on one graph.
@@ -303,7 +303,7 @@ plt.legend()
 
 
 
-![png](output_20_1.png)
+![](/post_resources/LOL/output_20_1.png)
 
 
 Now, let's conduct try to see if they are correlated.
