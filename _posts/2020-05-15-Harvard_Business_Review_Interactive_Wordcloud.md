@@ -8,7 +8,7 @@ practices that have the potential to change industries. I thought it
 would be a fun exercise to take a look at recent trends of word usage in
 their articles.
 
-\#\#Scraping Data I scraped articles from 2012 through 2019 using the
+## Scraping Data I scraped articles from 2012 through 2019 using the
 good old BeautifulSoup library in Python and utilized the NLTK module
 for text processing to generate word tokens and remove stopwords. You
 can refer to the scraper in detail
