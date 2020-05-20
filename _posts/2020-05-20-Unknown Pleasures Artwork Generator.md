@@ -11,7 +11,7 @@ picture
 
 
 
-![png](output_1_0.png)
+![](/post_resources/JD/output_1_0.png)
 
 
 
@@ -41,11 +41,11 @@ picture
 
 
 
-![png](output_5_0.png)
+![](/post_resources/JD/output_5_0.png)
 
 
 
-Next, we'll construct an array taking pixel values from evenly spaced rows and dividing by 255 to convert the corresponding amplitude to be between 0 and 1. Let's also add a little noise.
+Next, we'll construct an array taking pixel values from evenly spaced rows and dividing by 255 to convert the corresponding amplitude to be between 0 and 1. Play around with the value of t to change spacing of the rows.
 
 
 ```python
@@ -66,7 +66,7 @@ for i in sad:
 ```
 
 
-![png](output_7_0.png)
+![](/post_resources/JD/output_7_0.png)
 
 
 That's basically it. I've been working on a few other artwork generators with a friend of mine, perhaps I'll put up more if I feel like it. I'm on the look out for more of such artwork I could replicate. Let me know if you know of any!
