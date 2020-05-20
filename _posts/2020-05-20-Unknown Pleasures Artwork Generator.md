@@ -1,4 +1,3 @@
-# Unknown Pleasures Artwork Style Converter
 Joy Division's Unknown Pleasures Album Art is perhaps one of the most iconnic album artworks out there. The 40th anniversary of Ian Curtis' death was a couple of days ago so I decided to post this little script I'd written some time ago as a quick little exercise.
 
 
