@@ -1,3 +1,7 @@
+---
+title:Harvard Business Review Interactive Wordcloud
+---
+
 The [Harvard Business
 Review](https://hbr.org/) is
 one of the most presitigious general management magazines in the world
