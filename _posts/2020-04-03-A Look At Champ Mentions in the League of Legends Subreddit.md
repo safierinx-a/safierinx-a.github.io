@@ -1,3 +1,9 @@
+---
+title: A Look At Champ Mentions in the League of Legends Subreddit
+---
+
+
+
 I wanted to percieve the popularity of champions in the League of Legends subreddit. First, I decided to carry out a simple frequency based approach.
 
 
