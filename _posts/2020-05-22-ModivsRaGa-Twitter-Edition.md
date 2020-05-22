@@ -89,7 +89,7 @@ ggplot(data = data, aes(x = X1, y = time, color = Person)) +
   geom_point(alpha = 0.2) 
 ```
 
-![](/post_resources/Pol/2020-05-22-ModivsRaGa-Twitter-Edition_files/figure-markdown_github/unnamed-chunk-2-1.png)
+![](/post_resources/Pol/unnamed-chunk-2-1.png)
 Ignore the date in the plot, that’s just from stripping the date element
 from the tweets to get the time and then adding an identical date so we
 can plot out the tweets with respect to time of the day. Looks like Modi
@@ -101,7 +101,7 @@ ggplot(data = data, aes(x = Person,y = time, color = Person)) +
   geom_boxplot(alpha = 0.4) 
 ```
 
-![](/post_resources/Pol/2020-05-22-ModivsRaGa-Twitter-Edition_files/figure-markdown_github/unnamed-chunk-3-1.png)
+![](/post_resources/Pol/unnamed-chunk-3-1.png)
 
 ### Sentiment Analysis
 
@@ -148,7 +148,7 @@ raga_senti <- ggplot(raga_sent, aes(index, sentiment)) +
 ggarrange(modi_senti, raga_senti, ncol = 2, labels = c("Modi", "Rahul Gandhi"))
 ```
 
-![](/post_resources/Pol/2020-05-22-ModivsRaGa-Twitter-Edition_files/figure-markdown_github/unnamed-chunk-5-1.png)
+![](/post_resources/Pol/unnamed-chunk-5-1.png)
 Wow, Modi’s tweets are overwhelmingly positive whilst Rahul Gandhi’s are
 a bit more equally distributed between negative and positive. Let’s look
 at the standout words from amongst them.
@@ -204,7 +204,7 @@ r<-  raga %>%
 ggarrange(m, r, nrow = 2, labels = c("Modi", "Rahul"))
 ```
 
-![](/post_resources/Pol/2020-05-22-ModivsRaGa-Twitter-Edition_files/figure-markdown_github/unnamed-chunk-6-1.png)
+![](/post_resources/Pol/unnamed-chunk-6-1.png)
 
 Classification
 --------------
@@ -354,7 +354,7 @@ corr_explanation <- lime::explain(correct_pred, explainer, n_labels = 1,
 plot_features(corr_explanation)
 ```
 
-![](/post_resources/Pol/2020-05-22-ModivsRaGa-Twitter-Edition_files/figure-markdown_github/unnamed-chunk-14-1.png)
+![](/post_resources/Pol/unnamed-chunk-14-1.png)
 
 ``` r
 #plot_text_explanations(corr_explanation)
