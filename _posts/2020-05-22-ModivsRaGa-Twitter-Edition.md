@@ -25,7 +25,7 @@ modi <- suppressMessages(readr::read_csv("F:/Playin/Pol/Modi.csv"))
 ``` r
 raga <- suppressMessages(readr::read_csv("F:/Playin/Pol/Raga.csv"))
 ```
- 
+   
     ## Warning: Missing column names filled in: 'X1' [1]
 
 ``` r
