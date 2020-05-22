@@ -38,7 +38,6 @@ library(dplyr)
     ## The following objects are masked from 'package:stats':
     ## 
     ##     filter, lag
-
     ## The following objects are masked from 'package:base':
     ## 
     ##     intersect, setdiff, setequal, union
@@ -90,7 +89,7 @@ ggplot(data = data, aes(x = X1, y = time, color = Person)) +
   geom_point(alpha = 0.2) 
 ```
 
-![](2020-05-22-ModivsRaGa-Twitter-Edition_files/figure-markdown_github/unnamed-chunk-2-1.png)
+![](/post_resources/Pol/2020-05-22-ModivsRaGa-Twitter-Edition_files/figure-markdown_github/unnamed-chunk-2-1.png)
 Ignore the date in the plot, that’s just from stripping the date element
 from the tweets to get the time and then adding an identical date so we
 can plot out the tweets with respect to time of the day. Looks like Modi
@@ -102,7 +101,7 @@ ggplot(data = data, aes(x = Person,y = time, color = Person)) +
   geom_boxplot(alpha = 0.4) 
 ```
 
-![](2020-05-22-ModivsRaGa-Twitter-Edition_files/figure-markdown_github/unnamed-chunk-3-1.png)
+![](/post_resources/Pol/2020-05-22-ModivsRaGa-Twitter-Edition_files/figure-markdown_github/unnamed-chunk-3-1.png)
 
 ### Sentiment Analysis
 
@@ -149,7 +148,7 @@ raga_senti <- ggplot(raga_sent, aes(index, sentiment)) +
 ggarrange(modi_senti, raga_senti, ncol = 2, labels = c("Modi", "Rahul Gandhi"))
 ```
 
-![](2020-05-22-ModivsRaGa-Twitter-Edition_files/figure-markdown_github/unnamed-chunk-5-1.png)
+![](/post_resources/Pol/2020-05-22-ModivsRaGa-Twitter-Edition_files/figure-markdown_github/unnamed-chunk-5-1.png)
 Wow, Modi’s tweets are overwhelmingly positive whilst Rahul Gandhi’s are
 a bit more equally distributed between negative and positive. Let’s look
 at the standout words from amongst them.
@@ -205,7 +204,7 @@ r<-  raga %>%
 ggarrange(m, r, nrow = 2, labels = c("Modi", "Rahul"))
 ```
 
-![](2020-05-22-ModivsRaGa-Twitter-Edition_files/figure-markdown_github/unnamed-chunk-6-1.png)
+![](/post_resources/Pol/2020-05-22-ModivsRaGa-Twitter-Edition_files/figure-markdown_github/unnamed-chunk-6-1.png)
 
 Classification
 --------------
@@ -240,8 +239,7 @@ str(hm)
     ##   ..- attr(*, "names")= chr  "147" "254" "279" "1033" ...
 
 Okay, now we should go ahead and split it into testing and training
-sets. I’ll use the carets package here.
-
+sets. I’ll use the carets package here. Let's use the XGBoost algorithm to train our model.
 ``` r
 library(caret)
 ```
@@ -356,7 +354,7 @@ corr_explanation <- lime::explain(correct_pred, explainer, n_labels = 1,
 plot_features(corr_explanation)
 ```
 
-![](2020-05-22-ModivsRaGa-Twitter-Edition_files/figure-markdown_github/unnamed-chunk-14-1.png)
+![](/post_resources/Pol/2020-05-22-ModivsRaGa-Twitter-Edition_files/figure-markdown_github/unnamed-chunk-14-1.png)
 
 ``` r
 #plot_text_explanations(corr_explanation)
