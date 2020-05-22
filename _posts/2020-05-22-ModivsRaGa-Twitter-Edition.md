@@ -1,3 +1,7 @@
+---
+title: "Modi vs RaGa:Twitter Edition"
+---
+
 I recently read a great
 [article](http://varianceexplained.org/r/trump-tweets/) by David
 Robinson (I highly recommend his blog for some fun reading) and started
