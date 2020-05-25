@@ -1,7 +1,7 @@
 ---
 title: "People Map of India: Part 1 (Scraper)"
 ---
-I was going through [The Pudding](https://pudding.cool/) yesterday and came across their ["People Map of the UK"](https://pudding.cool/2019/06/people-map-uk/) and ["People Map of the US](https://pudding.cool/2019/05/people-map/) posts. These seemed pretty cool and since I've been trying to pick up making visualizations using JavaScript, I thought this was the perfect thing to attempt to replicate. So I decided to do the same for India.  
+I was going through [The Pudding](https://pudding.cool/) yesterday and came across their ["People Map of the UK"](https://pudding.cool/2019/06/people-map-uk/) and ["People Map of the US"](https://pudding.cool/2019/05/people-map/) posts. These seemed pretty cool and since I've been trying to pick up making visualizations using JavaScript, I thought this was the perfect thing to attempt to replicate. So I decided to do the same for India.  
   
 Before getting to the visualization, there is data collection so I decided to follow their methodology of using the "People by City" listings on Wikipedia. However. these lists aren't exhaustive and there are some more links but for the sake of brevity I decided not to try and scrape those. Those were a bit too hard to scrape, I've left the link to the collection of those pages, let me know if you see a good way to scrape the names from those pages!
 
