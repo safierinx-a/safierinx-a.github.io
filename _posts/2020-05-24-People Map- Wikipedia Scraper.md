@@ -69,7 +69,7 @@ def viewj(person):
 ```
 
 ### Scraping From Wikipedia
-
+Using BeautifulSoup and the requests module, I scraped the people listed under each city in the link and discarded all of them except the person with the highest number of views in each city.
 
 
 ```python
@@ -78,13 +78,13 @@ s = requests.get(central_url)
 data = pd.DataFrame(columns = ['City', "Person", 'Number of Views', 'Description', 'link'])
 soup = bs4.BeautifulSoup(s.content, 'lxml')
 raw = soup.find_all('div', {'class':"mw-category-group"})
-c = []
-p = []
-v = []
-d = []
-miss = []
+c = [] #Array of cities
+p = []  #Array of most viewed people corresponding to those cities
+v = []  #Array of thee views those people got
+d = [] #Descriptions of the people
+miss = [] 
 err = []
-li = []
+li = [] #Links to their profiles
 ```
 
 
