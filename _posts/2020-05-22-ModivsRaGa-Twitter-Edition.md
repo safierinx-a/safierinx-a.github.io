@@ -151,7 +151,7 @@ ggarrange(modi_senti, raga_senti, ncol = 2, labels = c("Modi", "Rahul Gandhi"))
 ![](/post_resources/Pol/unnamed-chunk-5-1.png)
 Wow, Modi’s tweets are overwhelmingly positive whilst Rahul Gandhi’s are
 a bit more equally distributed between negative and positive. Let’s look
-at the standout words from amongst them.
+at the stand-out words from amongst them.
 
 ``` r
 m<-  modi %>%
