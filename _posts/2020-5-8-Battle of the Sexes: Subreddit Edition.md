@@ -216,7 +216,7 @@ ggarrange(men_sentiment, women_sentiment, ncol = 2, labels = c("r/AskMen", "r/As
 
 ![](/post_resources/AskMen_vs_AskWomen_files/figure-markdown_github/unnamed-chunk-8-1.png)
 Looks like r/AskMen has more wholesome content as compared to
-r/AskWomen. Let’s take a look at the most common positive words once.
+r/AskWomen in general but the hate comes on pretty strong when it does come out. Let’s take a look at the most common positive words once.
 
 ``` r
 bing_word_counts_y <- y %>%
