@@ -44,32 +44,9 @@ the corpuses.
 
 ``` r
 library(dplyr)
-```
-
-    ## 
-    ## Attaching package: 'dplyr'
-
-    ## The following objects are masked from 'package:stats':
-    ## 
-    ##     filter, lag
-
-    ## The following objects are masked from 'package:base':
-    ## 
-    ##     intersect, setdiff, setequal, union
-
-``` r
 library(tokenizers)
 library(reshape)
-```
 
-    ## 
-    ## Attaching package: 'reshape'
-
-    ## The following object is masked from 'package:dplyr':
-    ## 
-    ##     rename
-
-``` r
 ngram <- "I was just"
 ngram_freqs <- function(m){
   ngrams <- melt(tokenize_ngrams(data$sample, n = m))
